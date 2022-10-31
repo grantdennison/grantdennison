@@ -21,6 +21,22 @@ function App() {
         >
           Gosia's home from home
         </a>
+        <a
+          className="App-link"
+          href="https://grant-dennison.co.uk/ball-game"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ball Game
+        </a>
+        <a
+          className="App-link"
+          href="https://grant-dennison.co.uk/2d-fighting-canvis-game"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Canvas Fighting Game
+        </a>
       </header>
     </div>
   );
