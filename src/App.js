@@ -4,14 +4,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Grant Dennison</h1>
+        <p>Grant Dennison</p>
         <a
           className="App-link"
-          href="https://grant-dennison.co.uk"
+          href="https://grant-dennison.co.uk/first-to-100"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Website
+          First To 100
+        </a>
+        <a
+          className="App-link"
+          href="https://grant-dennison.co.uk/gosias-home-from-home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Gosia's home from home
         </a>
       </header>
     </div>
