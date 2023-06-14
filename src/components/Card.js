@@ -22,8 +22,9 @@ const Card = ({ title, description, imageSrc, url }) => {
       border={"5px solid black"}
       overflow="hidden"
       backgroundColor="rgba(0, 0, 0, 0.448)"
+      padding-bottom={"200px"}
     >
-      <Image src={imageSrc} alt={title} w={"100%"} h={"70%"} />
+      <Image src={imageSrc} alt={title} w={"100%"} h={"55%"} />
       <VStack p={4} spacing={2}>
         <Heading as="h2" size="md">
           {title}

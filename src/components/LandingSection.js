@@ -6,10 +6,7 @@ import "./LandingSection.css";
 
 const greeting = "Hello, My name is Grant Dennison!";
 
-const bio1 = `I am an engineer with a strong background in the railway industry, specializing in ensuring the smooth operation of trains through online monitoring, fault finding, and programming. However, my true passion lies in JavaScript programming. I have developed a deep understanding of JavaScript and I'm familiar with popular frameworks and libraries such as React, Node.js, Express, Canvas, and Socket.io.`;
-const bio2 = `Although I don't have commercial programming experience, I'm eager to transition into a career as a JavaScript developer. I am confident in my skills and believe I can make a significant impact given the right opportunity. I'm actively seeking a company that will give me a chance to prove myself. Initially, I'm open to part-time or voluntary work to gain practical experience and showcase my capabilities.`;
-const bio3 = `I bring a unique combination of technical problem-solving skills from my engineering background and a strong foundation in JavaScript development. I am a quick learner, adaptable, and possess excellent analytical skills. I thrive in challenging environments and enjoy collaborating to find innovative solutions.`;
-const bio4 = `If given the opportunity, I am confident that I can contribute effectively to your team and help drive the success of your projects. I am excited about the prospect of starting a fulfilling career in programming and I am committed to continuous learning and growth.`;
+const bio1 = `With a background in the railway industry specializing in online monitoring, fault finding, and self taught JavaScript programming using frameworks like React and libraries like Socket.io, I am an adaptable and collaborative professional seeking part-time or voluntary work to gain practical experience and transition into a JavaScript development career. Confident in my abilities to contribute effectively, drive project success, and committed to continuous learning and growth, I am excited to start a fulfilling career in programming.`;
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
@@ -29,15 +26,6 @@ const LandingSection = () => (
       </HStack>
       <Heading as="h2" color="white" className="landing_para">
         {bio1}
-        <br></br>
-        <br></br>
-        {bio2}
-        <br></br>
-        <br></br>
-        {bio3}
-        <br></br>
-        <br></br>
-        {bio4}
       </Heading>
     </VStack>
   </FullScreenSection>

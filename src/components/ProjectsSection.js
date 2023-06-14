@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Cancas Weather App",
     description:
-      "A simple weather app using TypeScript that makes an API call to fetch the required data and displays the information using Canvas. It also utilizes Jest for testing purposes.",
+      "A weather app using TypeScript and canvas that makes an API call to fetch the required data. It also utilizes Jest for testing.",
     getImageSrc: () => require("../images/WeatherApp.png"),
     url: "https://grant-dennison.co.uk/weather-app-canvas/"
   },
@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Ball Game - Collect red dots",
     description:
-      "Collect the red dots, more you collect the faster you go! After you collect red dot the speed increases. Try beat your high score. Enjoy.",
+      "Collect the red dots, more you collect the faster you go! Try beat your high score. Enjoy.",
     getImageSrc: () => require("../images/BallGame.gif"),
     url: "https://grantdennison.github.io/ball-game/index.html"
   }
@@ -62,7 +62,7 @@ const ProjectsSection = () => {
         </Heading>
         <Box
           display="grid"
-          gridTemplateColumns="repeat(auto-fill, minmax(450px, 1fr))"
+          gridTemplateColumns="repeat(auto-fill, minmax(320px, 1fr))"
           gridGap={8}
         >
           {projects.map((project) => (
